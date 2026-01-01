@@ -34,7 +34,7 @@ Sau khi đã install thành công trong thư mục Challenge, thực hiện các
 
 ---
 
-#### 5. Truy cập và Tương tác
+#### Truy cập và Tương tác
 
 * Mở trình duyệt tại địa chỉ: **http://localhost:3000** để xem và sử dụng ứng dụng.
 * **Tự động cập nhật:** Mỗi khi thay đổi mã nguồn Smart Contract, chỉ cần chạy lại `yarn deploy` để cập nhật các thay đổi lên giao diện.
