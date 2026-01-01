@@ -8,23 +8,6 @@ Trước khi bắt đầu, cài đặt các công cụ sau:
 
 ---
 
-Câu trả lời ngắn gọn là: **Bạn phải `yarn install` cho từng thư mục Challenge riêng biệt.**
-
-Dựa trên cấu trúc thư mục mà bạn đã đăng tải lên GitHub (trong hình ảnh trước đó), mỗi Challenge (ví dụ: `challenge-dex`, `challenge-stablecoins`,...) là một dự án độc lập, có file `package.json` riêng. Do đó, việc cài đặt thư viện ở thư mục này sẽ không có tác dụng cho thư mục kia.
-
-Dưới đây là giải thích chi tiết và cách viết lại đoạn này trong README để giáo viên dễ hiểu hơn:
-
-### 1. Tại sao phải Install cho mỗi Folder?
-
-* **Tính độc lập:** Mỗi Challenge sử dụng các thư viện khác nhau (Ví dụ: Challenge Stablecoin cần các thư viện về Oracle/Chainlink, trong khi Challenge DEX cần thư viện về Uniswap/AMM).
-* **Quản lý Dependencies:** Khi bạn chạy `yarn install` trong `challenge-1`, thư viện sẽ được tải vào thư mục `challenge-1/node_modules`. Khi bạn `cd` sang `challenge-2`, thư mục này chưa có `node_modules` nên lệnh `yarn chain` hay `yarn deploy` sẽ bị lỗi ngay lập tức.
-
-### 2. Cách viết lại đoạn README cho cực kỳ rõ ràng
-
-Để giáo viên không bị nhầm lẫn, bạn nên viết như sau:
-
----
-
 ### 🚀 Hướng dẫn khởi chạy từng Challenge
 
 **Lưu ý quan trọng:** Mỗi Challenge trong repository này là một dự án độc lập. Do đó, cần thực hiện quy trình cài đặt dưới đây **cho mỗi thư mục Challenge** muốn kiểm tra.
