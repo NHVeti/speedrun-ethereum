@@ -22,7 +22,7 @@ yarn install
 
 ```
 
-*(Nếu sau đó muốn chuyển sang kiểm tra **Challenge khác**, thầy/cô phải quay trở ra thư mục gốc, `cd [folder-tương-ứng]` và tiếp tục chạy lại `yarn install` cho thư mục đó).*
+*(Nếu sau đó muốn chuyển sang kiểm tra **Challenge khác**, phải quay trở ra thư mục gốc, `cd [folder-tương-ứng]` và tiếp tục chạy lại `yarn install` cho thư mục đó).*
 
 #### Bước 2: Khởi chạy các Terminal khác nhau tương ứng
 
